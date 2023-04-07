@@ -1,0 +1,96 @@
+<style>
+.myA {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.a2 {
+    width: 3px;
+    position: absolute;
+    height: 13px;
+    background-color: #888;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.a3 {
+    width: 3px;
+    position: absolute;
+    height: 13px;
+    background-color: #888;
+    margin-top: 25.5px;
+    margin-left: 30px;
+    transform: rotate(-90deg);
+    border-radius: 50px;
+}
+.a4 {
+    width: 3px;
+    position: absolute;
+    height: 13px;
+    background-color: #888;
+    margin-top: 25.5px;
+    margin-left: -30px;
+    transform: rotate(-90deg);
+    border-radius: 50px;
+}
+.a5 {
+    width: 3px;
+    position: absolute;
+    height: 13px;
+    background-color: #888;
+    margin-top: 45px;
+    margin-left: -20px;
+    transform: rotate(-135deg);
+    border-radius: 50px;
+}
+.a6 {
+    width: 3px;
+    position: absolute;
+    height: 13px;
+    background-color: #888;
+    margin-top: 45px;
+    margin-left:20px;
+    transform: rotate(135deg);
+    border-radius: 50px;
+}
+.a7 {
+    width: 3px;
+    position: absolute;
+    height: 13px;
+    background-color:#888 ;
+    margin-top: 5px;
+    margin-left:20px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+.a8 {
+    width: 3px;
+    position: absolute;
+    height: 13px;
+    background-color: #888;
+    margin-top: -5px;
+    margin-left:0px;
+    transform: rotate(0deg);
+    border-radius: 50px;
+}
+.a9 {
+    width: 3px;
+    position: absolute;
+    height: 13px;
+    background-color: #888;
+    margin-top: 5px;
+    margin-left:-20px;
+    transform: rotate(-45deg);
+    border-radius: 50px;
+}
+.myA {
+    animation: mya 0.8s ease-out infinite;
+}
+
+@keyframes mya {
+    0% {
+        opacity: 0.3
+    }
+}
+</style>
